@@ -1,0 +1,14 @@
+---
+
+- name: Install all things defined in roles
+  hosts: webserver
+  user: horus
+  become: yes
+  become_method: sudo
+  tasks:
+
+  roles:
+   - resolv 
+   - updateapt
+   - php
+   - sql
