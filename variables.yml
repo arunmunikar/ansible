@@ -1,0 +1,5 @@
+---
+
+# This file contains the variable information used in all of the roles #
+
+ssh_port: 43223

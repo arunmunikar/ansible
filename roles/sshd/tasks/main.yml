@@ -4,6 +4,6 @@
   lineinfile:
    dest: "/etc/ssh/sshd_config"
    regexp: "^Port"
-   line: "Port 58621"
+   line: "Port {{ ssh_port }}"
   notify: "Restart ssh"
 

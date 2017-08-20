@@ -5,6 +5,8 @@
   user: horus
   become: yes
   become_method: sudo
+  vars_files:
+   - variables.yml
   tasks:
 
   roles:
