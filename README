@@ -1,10 +1,9 @@
 
 
-
-
-
-
 -----------------------------------------------------------------
 This directory contains all of my test ansible scripts.
 All of the roles, tasks, hosts, handlers will be defined within this directory and its sub-directories. Outside resources are not used
+
+<<POINTS TO BE NOTED >>
+1. This ansible codes are tested successfully in Ubuntu 14.01 LTS.
 -----------------------------------------------------------------
