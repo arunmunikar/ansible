@@ -8,7 +8,8 @@
   tasks:
 
   roles:
-   - resolv 
-   - updateapt
-   - php
-   - sql
+   - sshd
+#   - resolv 
+#   - updateapt
+#   - php
+#   - sql

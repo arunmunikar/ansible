@@ -1,0 +1,9 @@
+---
+
+- name: Setup Alternate SSH Port
+  lineinfile:
+   dest: "/etc/ssh/sshd_config"
+   regexp: "^Port"
+   line: "Port 58621"
+  notify: "Restart ssh"
+
