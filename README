@@ -6,4 +6,6 @@ All of the roles, tasks, hosts, handlers will be defined within this directory a
 
 <<POINTS TO BE NOTED >>
 1. This ansible codes are tested successfully in Ubuntu 14.01 LTS.
+2. Variables folders contains list of all variable values
+	a. ssh_port
 -----------------------------------------------------------------
