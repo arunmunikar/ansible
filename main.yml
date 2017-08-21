@@ -10,8 +10,8 @@
   tasks:
 
   roles:
-   - sshd
 #   - resolv 
 #   - updateapt
 #   - php
 #   - sql
+#   - sshd
